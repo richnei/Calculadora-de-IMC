@@ -26,7 +26,7 @@ function imc() {
     }
 
     resultado.textContent =
-      `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+      "`${nome}` seu IMC é `${valorIMC}` e você está `${classificacao}`";
   } else {
     resultado.textContent = "Preencha todos os campos!";
   }
